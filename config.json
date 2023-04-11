@@ -11,7 +11,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "b9276617-28ef-4f3c-a020-1b4e1a2f9390",
+                        "id": "054f24dd-8b6a-4e38-9140-5a40aa00b829",
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -21,15 +21,15 @@
                         "dest": 3001
                     },
                     {
-                        "path": "/mlu3-vless",
+                        "path": "/MIL35L-vless",
                         "dest": 3002
                     },
                     {
-                        "path": "/mlu3-vmess",
+                        "path": "/MIL35L-vmess",
                         "dest": 3003
                     },
                     {
-                        "path": "/mlu3-trojan",
+                        "path": "/MIL35L-trojan",
                         "dest": 3004
                     },
                     {
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "b9276617-28ef-4f3c-a020-1b4e1a2f9390"
+                        "id": "054f24dd-8b6a-4e38-9140-5a40aa00b829"
                     }
                 ],
                 "decryption": "none"
@@ -66,7 +66,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "b9276617-28ef-4f3c-a020-1b4e1a2f9390",
+                        "id": "054f24dd-8b6a-4e38-9140-5a40aa00b829",
                         "level": 0
                     }
                 ],
@@ -76,7 +76,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/ls2hiaqcbvweyesok-vless"
+                    "path": "/MIL35L-vless"
                 }
             },
             "false": {
@@ -96,7 +96,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "b9276617-28ef-4f3c-a020-1b4e1a2f9390",
+                        "id": "054f24dd-8b6a-4e38-9140-5a40aa00b829",
                         "alterId": 0
                     }
                 ]
@@ -104,7 +104,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/ls2hiaqcbvweyesok-vmess"
+                    "path": "/MIL35L-vmess"
                 }
             },
             "false": {
@@ -124,7 +124,7 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "b9276617-28ef-4f3c-a020-1b4e1a2f9390"
+                        "password": "054f24dd-8b6a-4e38-9140-5a40aa00b829"
                     }
                 ]
             },
@@ -132,7 +132,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/ls2hiaqcbvweyesok-trojan"
+                    "path": "/MIL35L-trojan"
                 }
             },
             "false": {
@@ -153,7 +153,7 @@
                 "clients": [
                     {
                         "method": "chacha20-ietf-poly1305",
-                        "password": "b9276617-28ef-4f3c-a020-1b4e1a2f9390"
+                        "password": "054f24dd-8b6a-4e38-9140-5a40aa00b829"
                     }
                 ],
                 "decryption": "none"
